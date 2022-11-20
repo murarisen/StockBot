@@ -15,5 +15,5 @@ def market(request):
     return render(request, 'base.html')
 
 def contect(request):
-    return HttpResponse("This is contect page")
+    return render(request,'News.html' )
 

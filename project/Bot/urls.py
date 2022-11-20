@@ -9,7 +9,7 @@ urlpatterns =[
      
     path("about.html",views.about, name ='about'),
     path("base.html",views.market, name ='market'),
-    path("contect",views.contect, name ='contect'),
+    path("News.html",views.contect, name ='news'),
     path("login.html",views.login, name ='login'),
 
 
